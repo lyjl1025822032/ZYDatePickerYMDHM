@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		203E851B1EF220F10051F543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 203E851A1EF220F10051F543 /* main.m */; };
+		203E851E1EF220F10051F543 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 203E851D1EF220F10051F543 /* AppDelegate.m */; };
+		203E85211EF220F10051F543 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203E85201EF220F10051F543 /* ViewController.m */; };
+		203E85241EF220F20051F543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203E85221EF220F20051F543 /* Main.storyboard */; };
+		203E85271EF220F20051F543 /* ZYDatePickerYMDHM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 203E85251EF220F20051F543 /* ZYDatePickerYMDHM.xcdatamodeld */; };
+		203E85291EF220F20051F543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203E85281EF220F20051F543 /* Assets.xcassets */; };
+		203E852C1EF220F20051F543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203E852A1EF220F20051F543 /* LaunchScreen.storyboard */; };
+		203E85371EF220F30051F543 /* ZYDatePickerYMDHMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 203E85361EF220F30051F543 /* ZYDatePickerYMDHMTests.m */; };
+		203E85421EF220F30051F543 /* ZYDatePickerYMDHMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 203E85411EF220F30051F543 /* ZYDatePickerYMDHMUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		203E85331EF220F30051F543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203E850E1EF220F00051F543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203E85151EF220F10051F543;
+			remoteInfo = ZYDatePickerYMDHM;
+		};
+		203E853E1EF220F30051F543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203E850E1EF220F00051F543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203E85151EF220F10051F543;
+			remoteInfo = ZYDatePickerYMDHM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		203E85161EF220F10051F543 /* ZYDatePickerYMDHM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYDatePickerYMDHM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		203E851A1EF220F10051F543 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		203E851C1EF220F10051F543 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		203E851D1EF220F10051F543 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		203E851F1EF220F10051F543 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		203E85201EF220F10051F543 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		203E85231EF220F20051F543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		203E85261EF220F20051F543 /* ZYDatePickerYMDHM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZYDatePickerYMDHM.xcdatamodel; sourceTree = "<group>"; };
+		203E85281EF220F20051F543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		203E852B1EF220F20051F543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		203E852D1EF220F20051F543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203E85321EF220F30051F543 /* ZYDatePickerYMDHMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYDatePickerYMDHMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		203E85361EF220F30051F543 /* ZYDatePickerYMDHMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYDatePickerYMDHMTests.m; sourceTree = "<group>"; };
+		203E85381EF220F30051F543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203E853D1EF220F30051F543 /* ZYDatePickerYMDHMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYDatePickerYMDHMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		203E85411EF220F30051F543 /* ZYDatePickerYMDHMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYDatePickerYMDHMUITests.m; sourceTree = "<group>"; };
+		203E85431EF220F30051F543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		203E85131EF220F10051F543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203E852F1EF220F30051F543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203E853A1EF220F30051F543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		203E850D1EF220F00051F543 = {
+			isa = PBXGroup;
+			children = (
+				203E85181EF220F10051F543 /* ZYDatePickerYMDHM */,
+				203E85351EF220F30051F543 /* ZYDatePickerYMDHMTests */,
+				203E85401EF220F30051F543 /* ZYDatePickerYMDHMUITests */,
+				203E85171EF220F10051F543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		203E85171EF220F10051F543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				203E85161EF220F10051F543 /* ZYDatePickerYMDHM.app */,
+				203E85321EF220F30051F543 /* ZYDatePickerYMDHMTests.xctest */,
+				203E853D1EF220F30051F543 /* ZYDatePickerYMDHMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		203E85181EF220F10051F543 /* ZYDatePickerYMDHM */ = {
+			isa = PBXGroup;
+			children = (
+				203E851C1EF220F10051F543 /* AppDelegate.h */,
+				203E851D1EF220F10051F543 /* AppDelegate.m */,
+				203E851F1EF220F10051F543 /* ViewController.h */,
+				203E85201EF220F10051F543 /* ViewController.m */,
+				203E85221EF220F20051F543 /* Main.storyboard */,
+				203E85281EF220F20051F543 /* Assets.xcassets */,
+				203E852A1EF220F20051F543 /* LaunchScreen.storyboard */,
+				203E852D1EF220F20051F543 /* Info.plist */,
+				203E85251EF220F20051F543 /* ZYDatePickerYMDHM.xcdatamodeld */,
+				203E85191EF220F10051F543 /* Supporting Files */,
+			);
+			path = ZYDatePickerYMDHM;
+			sourceTree = "<group>";
+		};
+		203E85191EF220F10051F543 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				203E851A1EF220F10051F543 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		203E85351EF220F30051F543 /* ZYDatePickerYMDHMTests */ = {
+			isa = PBXGroup;
+			children = (
+				203E85361EF220F30051F543 /* ZYDatePickerYMDHMTests.m */,
+				203E85381EF220F30051F543 /* Info.plist */,
+			);
+			path = ZYDatePickerYMDHMTests;
+			sourceTree = "<group>";
+		};
+		203E85401EF220F30051F543 /* ZYDatePickerYMDHMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				203E85411EF220F30051F543 /* ZYDatePickerYMDHMUITests.m */,
+				203E85431EF220F30051F543 /* Info.plist */,
+			);
+			path = ZYDatePickerYMDHMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		203E85151EF220F10051F543 /* ZYDatePickerYMDHM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203E85461EF220F30051F543 /* Build configuration list for PBXNativeTarget "ZYDatePickerYMDHM" */;
+			buildPhases = (
+				203E85121EF220F10051F543 /* Sources */,
+				203E85131EF220F10051F543 /* Frameworks */,
+				203E85141EF220F10051F543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYDatePickerYMDHM;
+			productName = ZYDatePickerYMDHM;
+			productReference = 203E85161EF220F10051F543 /* ZYDatePickerYMDHM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		203E85311EF220F30051F543 /* ZYDatePickerYMDHMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203E85491EF220F30051F543 /* Build configuration list for PBXNativeTarget "ZYDatePickerYMDHMTests" */;
+			buildPhases = (
+				203E852E1EF220F30051F543 /* Sources */,
+				203E852F1EF220F30051F543 /* Frameworks */,
+				203E85301EF220F30051F543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				203E85341EF220F30051F543 /* PBXTargetDependency */,
+			);
+			name = ZYDatePickerYMDHMTests;
+			productName = ZYDatePickerYMDHMTests;
+			productReference = 203E85321EF220F30051F543 /* ZYDatePickerYMDHMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		203E853C1EF220F30051F543 /* ZYDatePickerYMDHMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203E854C1EF220F30051F543 /* Build configuration list for PBXNativeTarget "ZYDatePickerYMDHMUITests" */;
+			buildPhases = (
+				203E85391EF220F30051F543 /* Sources */,
+				203E853A1EF220F30051F543 /* Frameworks */,
+				203E853B1EF220F30051F543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				203E853F1EF220F30051F543 /* PBXTargetDependency */,
+			);
+			name = ZYDatePickerYMDHMUITests;
+			productName = ZYDatePickerYMDHMUITests;
+			productReference = 203E853D1EF220F30051F543 /* ZYDatePickerYMDHMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		203E850E1EF220F00051F543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yao;
+				TargetAttributes = {
+					203E85151EF220F10051F543 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M4C7ZCQAKU;
+						ProvisioningStyle = Automatic;
+					};
+					203E85311EF220F30051F543 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M4C7ZCQAKU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 203E85151EF220F10051F543;
+					};
+					203E853C1EF220F30051F543 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M4C7ZCQAKU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 203E85151EF220F10051F543;
+					};
+				};
+			};
+			buildConfigurationList = 203E85111EF220F10051F543 /* Build configuration list for PBXProject "ZYDatePickerYMDHM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 203E850D1EF220F00051F543;
+			productRefGroup = 203E85171EF220F10051F543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				203E85151EF220F10051F543 /* ZYDatePickerYMDHM */,
+				203E85311EF220F30051F543 /* ZYDatePickerYMDHMTests */,
+				203E853C1EF220F30051F543 /* ZYDatePickerYMDHMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		203E85141EF220F10051F543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203E852C1EF220F20051F543 /* LaunchScreen.storyboard in Resources */,
+				203E85291EF220F20051F543 /* Assets.xcassets in Resources */,
+				203E85241EF220F20051F543 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203E85301EF220F30051F543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203E853B1EF220F30051F543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		203E85121EF220F10051F543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203E85271EF220F20051F543 /* ZYDatePickerYMDHM.xcdatamodeld in Sources */,
+				203E85211EF220F10051F543 /* ViewController.m in Sources */,
+				203E851E1EF220F10051F543 /* AppDelegate.m in Sources */,
+				203E851B1EF220F10051F543 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203E852E1EF220F30051F543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203E85371EF220F30051F543 /* ZYDatePickerYMDHMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203E85391EF220F30051F543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203E85421EF220F30051F543 /* ZYDatePickerYMDHMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		203E85341EF220F30051F543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203E85151EF220F10051F543 /* ZYDatePickerYMDHM */;
+			targetProxy = 203E85331EF220F30051F543 /* PBXContainerItemProxy */;
+		};
+		203E853F1EF220F30051F543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203E85151EF220F10051F543 /* ZYDatePickerYMDHM */;
+			targetProxy = 203E853E1EF220F30051F543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		203E85221EF220F20051F543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				203E85231EF220F20051F543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		203E852A1EF220F20051F543 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				203E852B1EF220F20051F543 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		203E85441EF220F30051F543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		203E85451EF220F30051F543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		203E85471EF220F30051F543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYDatePickerYMDHM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzyDatePickerAlertView.www.ZYDatePickerYMDHM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		203E85481EF220F30051F543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYDatePickerYMDHM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzyDatePickerAlertView.www.ZYDatePickerYMDHM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		203E854A1EF220F30051F543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYDatePickerYMDHMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzyDatePickerAlertView.www.ZYDatePickerYMDHMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYDatePickerYMDHM.app/ZYDatePickerYMDHM";
+			};
+			name = Debug;
+		};
+		203E854B1EF220F30051F543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYDatePickerYMDHMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzyDatePickerAlertView.www.ZYDatePickerYMDHMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYDatePickerYMDHM.app/ZYDatePickerYMDHM";
+			};
+			name = Release;
+		};
+		203E854D1EF220F30051F543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYDatePickerYMDHMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzyDatePickerAlertView.www.ZYDatePickerYMDHMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYDatePickerYMDHM;
+			};
+			name = Debug;
+		};
+		203E854E1EF220F30051F543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYDatePickerYMDHMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzyDatePickerAlertView.www.ZYDatePickerYMDHMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYDatePickerYMDHM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		203E85111EF220F10051F543 /* Build configuration list for PBXProject "ZYDatePickerYMDHM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203E85441EF220F30051F543 /* Debug */,
+				203E85451EF220F30051F543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		203E85461EF220F30051F543 /* Build configuration list for PBXNativeTarget "ZYDatePickerYMDHM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203E85471EF220F30051F543 /* Debug */,
+				203E85481EF220F30051F543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		203E85491EF220F30051F543 /* Build configuration list for PBXNativeTarget "ZYDatePickerYMDHMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203E854A1EF220F30051F543 /* Debug */,
+				203E854B1EF220F30051F543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		203E854C1EF220F30051F543 /* Build configuration list for PBXNativeTarget "ZYDatePickerYMDHMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203E854D1EF220F30051F543 /* Debug */,
+				203E854E1EF220F30051F543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		203E85251EF220F20051F543 /* ZYDatePickerYMDHM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				203E85261EF220F20051F543 /* ZYDatePickerYMDHM.xcdatamodel */,
+			);
+			currentVersion = 203E85261EF220F20051F543 /* ZYDatePickerYMDHM.xcdatamodel */;
+			path = ZYDatePickerYMDHM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 203E850E1EF220F00051F543 /* Project object */;
+}
