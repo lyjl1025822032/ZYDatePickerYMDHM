@@ -16,6 +16,9 @@
 		203E852C1EF220F20051F543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203E852A1EF220F20051F543 /* LaunchScreen.storyboard */; };
 		203E85371EF220F30051F543 /* ZYDatePickerYMDHMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 203E85361EF220F30051F543 /* ZYDatePickerYMDHMTests.m */; };
 		203E85421EF220F30051F543 /* ZYDatePickerYMDHMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 203E85411EF220F30051F543 /* ZYDatePickerYMDHMUITests.m */; };
+		203E85531EF221C80051F543 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 203E85521EF221C80051F543 /* UIView+Extension.m */; };
+		203E85561EF221DB0051F543 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 203E85551EF221DB0051F543 /* NSDate+Extension.m */; };
+		203E85591EF227820051F543 /* ZYDatePickerAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203E85581EF227820051F543 /* ZYDatePickerAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		203E853D1EF220F30051F543 /* ZYDatePickerYMDHMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYDatePickerYMDHMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		203E85411EF220F30051F543 /* ZYDatePickerYMDHMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYDatePickerYMDHMUITests.m; sourceTree = "<group>"; };
 		203E85431EF220F30051F543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203E85511EF221C80051F543 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		203E85521EF221C80051F543 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		203E85541EF221DB0051F543 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		203E85551EF221DB0051F543 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		203E85571EF227820051F543 /* ZYDatePickerAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDatePickerAlertView.h; sourceTree = "<group>"; };
+		203E85581EF227820051F543 /* ZYDatePickerAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDatePickerAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +112,7 @@
 		203E85181EF220F10051F543 /* ZYDatePickerYMDHM */ = {
 			isa = PBXGroup;
 			children = (
+				203E85501EF221700051F543 /* ZYDatePickAlertView */,
 				203E851C1EF220F10051F543 /* AppDelegate.h */,
 				203E851D1EF220F10051F543 /* AppDelegate.m */,
 				203E851F1EF220F10051F543 /* ViewController.h */,
@@ -141,6 +151,28 @@
 				203E85431EF220F30051F543 /* Info.plist */,
 			);
 			path = ZYDatePickerYMDHMUITests;
+			sourceTree = "<group>";
+		};
+		203E854F1EF2215D0051F543 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				203E85511EF221C80051F543 /* UIView+Extension.h */,
+				203E85521EF221C80051F543 /* UIView+Extension.m */,
+				203E85541EF221DB0051F543 /* NSDate+Extension.h */,
+				203E85551EF221DB0051F543 /* NSDate+Extension.m */,
+			);
+			name = Category;
+			path = ../Category;
+			sourceTree = "<group>";
+		};
+		203E85501EF221700051F543 /* ZYDatePickAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				203E854F1EF2215D0051F543 /* Category */,
+				203E85571EF227820051F543 /* ZYDatePickerAlertView.h */,
+				203E85581EF227820051F543 /* ZYDatePickerAlertView.m */,
+			);
+			path = ZYDatePickAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +311,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203E85531EF221C80051F543 /* UIView+Extension.m in Sources */,
 				203E85271EF220F20051F543 /* ZYDatePickerYMDHM.xcdatamodeld in Sources */,
+				203E85591EF227820051F543 /* ZYDatePickerAlertView.m in Sources */,
+				203E85561EF221DB0051F543 /* NSDate+Extension.m in Sources */,
 				203E85211EF220F10051F543 /* ViewController.m in Sources */,
 				203E851E1EF220F10051F543 /* AppDelegate.m in Sources */,
 				203E851B1EF220F10051F543 /* main.m in Sources */,
@@ -433,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M4C7ZCQAKU;
 				INFOPLIST_FILE = ZYDatePickerYMDHM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wzyDatePickerAlertView.www.ZYDatePickerYMDHM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +481,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M4C7ZCQAKU;
 				INFOPLIST_FILE = ZYDatePickerYMDHM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wzyDatePickerAlertView.www.ZYDatePickerYMDHM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
